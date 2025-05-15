@@ -6,6 +6,8 @@ import js from '@eslint/js'
 import pluginVue from 'eslint-plugin-vue'
 import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
 
+import autoImportGlobals from './.eslintrc-auto-import.json' assert { type: 'json' }
+
 export default defineConfig([
   {
     name: 'app/files-to-lint',
@@ -19,6 +21,7 @@ export default defineConfig([
       },
       globals: {
         ...globals.browser,
+        ...autoImportGlobals.globals,
       },
     },
     plugins: {
@@ -27,6 +30,7 @@ export default defineConfig([
     },
     rules: {
       'vue/no-unused-vars': 'warn',
+      'vue/no-undef-components': 'off',
       'no-unused-vars': 'warn',
       'no-undef': 'error',
       'prettier/prettier': 'warn',
