@@ -5,7 +5,7 @@
 # Vue Starter Template
 
 <p align="center">
-  <img alt="Vue Logo" width="150" src="./public/choosla.svg" />
+  <img alt="Vue Logo" width="300" src="./public/choosla.svg" />
 </p>
 
 <p align="center">
