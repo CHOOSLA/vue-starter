@@ -16,7 +16,6 @@
 
 - [Vite](https://vitejs.dev/)
 - [Vue 3 (Composition API + `<script setup>`)](https://vuejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
 - [ESLint Flat Config](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)
