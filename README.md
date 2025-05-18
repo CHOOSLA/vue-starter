@@ -1,11 +1,13 @@
 # Vue Starter Template
 
+![Image](https://github.com/user-attachments/assets/9996892f-257c-4b6d-bfee-b0acb6c19bdb)
+
 <p align="center">
   <img alt="Vue Logo" width="150" src="./public/choosla.svg" />
 </p>
 
 <p align="center">
-  ⚡️ Vite + Vue 3 + TypeScript + ESLint + Auto Import 환경 템플릿 ⚡️
+  ⚡️ Vite + Vue 3 + JavaScript + ESLint + Auto Import 환경 템플릿 ⚡️
 </p>
 
 ---
