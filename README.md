@@ -1,36 +1,29 @@
-# vue-starter
+# Vue Starter Template
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center">
+  <img alt="Vue Logo" width="150" src="./public/choosla.svg" />
+</p>
 
-## Recommended IDE Setup
+<p align="center">
+  ⚡️ Vite + Vue 3 + TypeScript + ESLint + Auto Import 환경 템플릿 ⚡️
+</p>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## 🛠️ 기술 스택
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vite](https://vitejs.dev/)
+- [Vue 3 (Composition API + `<script setup>`)](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint Flat Config](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)
+- [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
+- [vite-plugin-vue-devtools](https://github.com/webfansplz/vite-plugin-vue-devtools)
 
-## Project Setup
+---
 
-```sh
-yarn
-```
+## 📦 프로젝트 설치
 
-### Compile and Hot-Reload for Development
-
-```sh
-yarn dev
-```
-
-### Compile and Minify for Production
-
-```sh
-yarn build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
-# vue-starter
+```bash
+yarn install
