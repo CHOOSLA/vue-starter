@@ -1,6 +1,5 @@
+<img width="675" alt="Image" src="https://github.com/user-attachments/assets/884a01c9-ded7-431a-a326-5e0437039041" />
 # Vue Starter Template
-
-![Image](https://github.com/user-attachments/assets/9996892f-257c-4b6d-bfee-b0acb6c19bdb)
 
 <p align="center">
   <img alt="Vue Logo" width="150" src="./public/choosla.svg" />
