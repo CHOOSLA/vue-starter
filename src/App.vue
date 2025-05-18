@@ -8,7 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="/choosla.svg" class="logo" alt="Choosla logo" />
     </a>
   </div>
-  <HelloWorld msg="Choosla Vue Starter" />
+  <HelloWorld msg="Vue Starter" />
 </template>
 
 <style scoped>
