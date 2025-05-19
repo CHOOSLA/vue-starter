@@ -10,21 +10,21 @@ import Components from 'unplugin-vue-components/vite'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 
-// 👉 TailwindCSS 플러그인
-import tailwindcss from '@tailwindcss/vite'
+// // 👉 TailwindCSS 플러그인
+// import tailwindcss from '@tailwindcss/vite'
 
 // 👉 테스트를 위한 설정 (Vitest)
 export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
-    tailwindcss(),
+    // tailwindcss(),
 
     AutoImport({
       imports: [
         'vue',
         'vue-router',
-        'pinia',        // ✅ Pinia 자동 import
+        'pinia', // ✅ Pinia 자동 import
         '@vueuse/core',
       ],
       dts: 'src/auto-imports.d.ts',
