@@ -9,7 +9,7 @@
 </p>
 
 <p align="center"">
-  ⚡️ Vite + Vue 3 + JavaScript + ESLint + Auto Import 환경 템플릿 ⚡️
+  ⚡️ Vite + Vue 3 + JavaScript + Tailwind + ESLint + Auto Import 환경 템플릿 ⚡️
 </p>
 
 ---
