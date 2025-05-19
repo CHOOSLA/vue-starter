@@ -1,5 +1,5 @@
 <p align="center">
-<img width="675" alt="Image" src="https://github.com/user-attachments/assets/884a01c9-ded7-431a-a326-5e0437039041" />
+<img width="675" alt="Image" style="pointer-event: none;" src="https://github.com/user-attachments/assets/884a01c9-ded7-431a-a326-5e0437039041" />
 </p>
 
 # Vue Starter Template
@@ -8,7 +8,7 @@
   <img alt="Vue Logo" width="300" src="./public/choosla.svg" />
 </p>
 
-<p align="center">
+<p align="center"">
   ⚡️ Vite + Vue 3 + JavaScript + ESLint + Auto Import 환경 템플릿 ⚡️
 </p>
 
