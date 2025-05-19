@@ -55,5 +55,5 @@ yarn install
 2. 다른 폴더에 CSS 파일을 생성한 경우, 엔트리 파일(`main.ts` 또는 `main.js`)에서 다음과 같이 경로를 수정한다:
 
 ```js
-import './assets/[your file name].cc'
+import './assets/[your file name].css'
 ```
