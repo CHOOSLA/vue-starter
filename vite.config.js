@@ -4,28 +4,28 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
-// 👇 추가된 import
+// 👉 자동 import + 컴포넌트 + 아이콘
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 
-// Tailwind
+// 👉 TailwindCSS 플러그인
 import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
+// 👉 테스트를 위한 설정 (Vitest)
 export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
     tailwindcss(),
 
-    // ✅ Vue API 자동 임포트
     AutoImport({
       imports: [
-        'vue',         // ref, reactive, watch 등
-        'vue-router',  // useRoute, useRouter 등
-        '@vueuse/core' // optional: VueUse 사용 시
+        'vue',
+        'vue-router',
+        'pinia',        // ✅ Pinia 자동 import
+        '@vueuse/core',
       ],
       dts: 'src/auto-imports.d.ts',
       eslintrc: {
@@ -35,26 +35,34 @@ export default defineConfig({
       },
     }),
 
-    // ✅ Vue 컴포넌트 자동 임포트 + 아이콘 컴포넌트 지원
     Components({
       dts: 'src/components.d.ts',
       resolvers: [
         IconsResolver({
-          prefix: 'Icon', // ex: <IconMdiAccount />
-          enabledCollections: ['mdi', 'tabler'], // 원하는 컬렉션만 사용
+          prefix: 'Icon',
+          enabledCollections: ['mdi', 'tabler'],
         }),
       ],
     }),
 
-    // ✅ 아이콘 SVG 자동 컴포넌트화
     Icons({
       autoInstall: true,
     }),
   ],
 
+  // 👉 경로 별칭
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
+  },
+
+  // ✅ Vitest 테스트 환경 구성
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    coverage: {
+      reporter: ['text', 'html'],
     },
   },
 })

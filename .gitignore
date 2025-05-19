@@ -33,3 +33,8 @@ coverage
 src/auto-imports.d.ts
 src/components.d.ts
 .eslintrc-auto-import.json
+
+# delete yarn env
+.yarn/
+.pnp.*
+.yarnrc.yml
