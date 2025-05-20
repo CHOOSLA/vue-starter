@@ -33,6 +33,7 @@
     "eslint-plugin-vue": "~10.0.0",
     "globals": "^16.0.0",
     "jsdom": "^26.1.0",
+    "pinia-plugin-persistedstate": "^4.3.0",
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
     "tailwindcss": "^3.4.17",
