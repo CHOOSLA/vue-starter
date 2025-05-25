@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="675" alt="Vue Starter Banner" src="https://github.com/user-attachments/assets/884a01c9-ded7-431a-a326-5e0437039041" />
+  <img width="675" alt="Vue Starter Banner" src="https://github.com/user-attachments/assets/ebc2a032-6964-4316-be13-75f7d280801e" />
 </p>
 
 <h1 align="center">Vue Starter Template</h1>
