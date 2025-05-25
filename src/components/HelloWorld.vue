@@ -73,7 +73,7 @@ const count = ref(0)
       >.
     </p>
     <p class="read-the-docs">Click on the bean logo to visit Github</p>
-  </div class="spce-y-3">
+  </div>
 </template>
 
 <style scoped>
